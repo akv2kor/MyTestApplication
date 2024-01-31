@@ -6,7 +6,19 @@ namespace TestProject
         [TestMethod]
         public void TestMethod1()
         {
-            String firstName = "Arun"
+            String firstName = "Arun";
+            String lastName = "Viswanath";
+            String expected = "Arun Viswanath";
+            String actual;
+            //Act  
+            actual = $"{firstName} {lastName}";
+            //Assert  
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod]
+        public void TestMethod2()
+        {
+            String firstName = "Arun";
             String lastName = "Viswanath";
             String expected = "Arun Viswanath";
             String actual;
