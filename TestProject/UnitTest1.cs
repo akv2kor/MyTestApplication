@@ -6,7 +6,7 @@ namespace TestProject
         [TestMethod]
         public void TestMethod1()
         {
-            String firstName = "Arun";
+            String firstName = "Arun"
             String lastName = "Viswanath";
             String expected = "Arun Viswanath";
             String actual;
